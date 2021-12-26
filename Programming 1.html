@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head><!--Esto aparace en el nombre de la pagina, en la solapa-->
+        <title>Hello</title>
+    <body><!--Todo el cuerpo de la pagina-->
+        <h1>Texto grande como la mia</h1>
+        <h2>Texto Mediano</h2>
+        <h3>Texto Chico</h3>
+
+        <ol> <!--listaordenada-->
+            <li>List item 1</li>
+            <li>List item 2</li>
+        </ol>
+
+        <ul> <!--listadesordenada-->
+            <li>list item 3</li>
+            <li>list item 4</li>
+        </ul>
+
+        <img src="WhatsApp Image 2021-05-05 at 11.41.30.jpeg"
+        alt="no hay foto rey" width="50px"><!--foto con tamaño y alternativa-->
+<div> </div>
+        <!--tablas tipo Excel-->
+        <table>
+           <thead>TITLE</thead> <!--TITULO DE LA TABLA-->
+            <tbody>
+                <tr><!--TABLE ROW-->
+                    <th>col1</th><!--TABLE HEADING TITULO DE CADA COLUMNA-->
+                    <th>col 2</th>
+
+                </tr>
+                <tr>
+                    <td>dato 1</td> <!--CADA TD TE AGREGA UNA COLUMNA A LA FILA-->
+                    <td>dato 2</td>
+                </tr>
+                <tr>
+                    <td>dato 3</td>
+                    <td>dato 4</td>
+                </tr>
+            </tbody>
+                
+        </table>
+
+        <form><!--formulario-->
+            <input type="text" placeholder="alla la estan tipeando"><!--tiene mas variables y atributos modificables-->
+            <input type="submit" value="apretame esta">
+        </form>
+    
+
+        <!--inline styling-->
+
+            <h1 style="color:blueviolet; height: 15px; text-align: center;text-overflow: initial;">
+            TEXTO CON ESTILO 
+
+            </h1>
+
+        <!--referenciar a otro archivo de CSS-->
+        <link rel="stylesheet"  href="C:\Users\Felipe\Desktop\Programming\CSS\style.css" type = "text/css" >
+        <!--rel es tipo de relacion href la referenica y text type el tipo de info que tiene el archivo referenciado-->
+<h4>texto de prueba colorcito</h4>
+
+        <!--controlar tamaño de elementos de la pagina-->
+        <!--crea una clase, todos los elemenos que sean = nombre despues del punto se les asigna la caracteristica-->
+        <style>
+                .mydiv {background-color: rgb(161, 112, 37);
+                width: 100px;
+                height: 200px;
+                padding: 5px;
+                margin: 50px;
+                align-items: center;}
+       </style>
+    <div class = "mydiv">
+        <h2>TEXTO EN DIV</h2>
+    </div>
+
+    <!--ID DE UN ELEMENTO-->
+
+    <h5 id="el1">Heading 1</h5>
+    <h6 id="el2">Heading 2</h6>
+
+    <!--SELECTORES DE CSS-->
+
+    <!--DESCENDENTES todos los elementos z que pertenezcan a un x (x>z)-->
+<style>
+    ul > li {color:red}
+</style>
+    <ol>
+        <li>item 1</li>
+        <lt>item 2</lt>
+        <ul>
+            <li>item 3</li>
+        </ul>
+    </ol>
+
+    <!--pseudo clase, acciones cuando haces algo-->
+        <button id = "boton">Boton pijudo </button>
+
+        <style>
+            button {background-color:blue;
+                    width:150px;
+                    height:150px;
+                text-align: center;}
+
+            button:hover {background-color: red;
+                    }
+            
+            
+
+        </style>
+
+    </body>
+</html>

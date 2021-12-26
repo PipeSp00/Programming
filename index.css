@@ -1,0 +1,117 @@
+#boton, #botondiv {
+    height: 30px;
+    width: 180px;
+    border-radius : 10px;
+    position: relative;
+    left: 100px;
+    top: 250px;
+    text-align: center;
+    background-color: royalblue;
+    color:white
+    
+    }
+#input  {
+        height: 30px;
+        width: 400px;
+        border-radius : 10px;
+        position: relative;
+        top:200px;
+        left: 485px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+#advance
+    {
+        height:40px;
+        width:100%;
+        position: relative;
+        top:100px;
+        left:50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serifS;
+        border-spacing: 15px;
+        border-collapse: separate;
+    }        
+h1 {text-align: center;
+    position: relative;
+    top:100px}
+
+#busq_1 {
+    width: 700px;
+   
+}
+#busq_1txt {
+    width: 400px;
+    height: 20px;
+    position: relative;
+    right:150px;
+    font-size: 12px;
+}
+
+#busq_2txt {
+        width: 400px;
+        height: 20px;
+        position: relative;
+        right:150px;
+        font-size: 12px;
+  }
+.link {
+    font-size: 18px;
+
+    width:150px;
+    height: 40;
+    color:black;
+    position: relative;
+    left:100px;
+    text-decoration: none;
+    Top: 5px;
+}
+
+.link2 {
+    font-size: 18px;
+
+    width:150px;
+    height: 40;
+    color:black;
+    position: relative;
+    left:150px;
+    text-decoration: none;
+    top: 5px
+}
+
+#MENU {
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 45px;
+    width: 450px;
+}
+
+#advance_title {
+    position: absolute;
+    left: 50px;
+    top:40px;
+    column-width: 500px;
+    color: rgb(179, 55, 18)
+}
+#boton_ad {
+height: 30px;
+width: 180px;
+border-radius : 10px;
+position: relative;
+left: 65px;
+top: 350px;
+text-align: center;
+background-color: royalblue;
+color:white
+}
+#boton_img {
+    height: 30px;
+    width: 180px;
+    border-radius : 10px;
+    position: absolute;
+    left: 600px;
+    top: 305px;
+    text-align: center;
+    background-color: royalblue;
+    color:white
+    }
